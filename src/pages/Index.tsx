@@ -65,13 +65,15 @@ const Index = () => {
       <header className="bg-brand-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 from-brand-red to-brand-orange rounded-lg flex items-center justify-center bg-transparent">
-                <span className="text-white font-bold font-heading">OT
-</span>
-              </div>
-              <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-brand-red to-brand-orange bg-clip-text text-transparent">OrientalTea
-</h1>
+            <div className="flex items-center space-x-3">
+              <img 
+                src="https://cdn.poehali.dev/files/1d7bfd1b-bb0b-4028-b205-0abb466cf694.png" 
+                alt="Oriental Tea Logo" 
+                className="w-12 h-12 object-contain"
+              />
+              <h1 className="text-2xl font-bold font-heading text-gray-900">
+                Oriental Tea
+              </h1>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#catalog" className="text-gray-700 hover:text-brand-red transition-colors font-body">Каталог</a>
@@ -309,11 +311,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-brand-red to-brand-orange rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold font-heading">OT</span>
-                </div>
-                <h4 className="text-xl font-bold font-heading">OrientalTea</h4>
+              <div className="flex items-center space-x-3 mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/1d7bfd1b-bb0b-4028-b205-0abb466cf694.png" 
+                  alt="Oriental Tea Logo" 
+                  className="w-10 h-10 object-contain"
+                />
+                <h4 className="text-xl font-bold font-heading">Oriental Tea</h4>
               </div>
               <p className="text-gray-400 font-body">Лучшие китайские продукты и напитки с доставкой по всей России</p>
             </div>
@@ -351,7 +355,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400 font-body">&copy; 2024 China Market. Все права защищены.</p>
+            <p className="text-gray-400 font-body">&copy; 2024 Oriental Tea. Все права защищены.</p>
           </div>
         </div>
       </footer>

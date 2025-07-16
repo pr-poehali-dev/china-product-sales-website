@@ -286,7 +286,8 @@ const Index = () => {
                       <Icon name="Truck" size={20} className="mr-2 text-brand-orange" />
                       Доставка
                     </h4>
-                    <p className="text-brand-gray font-body">По Москве и области. Сроки: 1-3 дня</p>
+                    <p className="text-brand-gray font-body">По городу 
+</p>
                   </CardContent>
                 </Card>
                 <Card className="border-brand-gray/20">

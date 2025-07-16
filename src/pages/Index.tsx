@@ -311,7 +311,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-gradient-to-r from-brand-red to-brand-orange rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold font-heading">中</span>
+                  <span className="text-white font-bold font-heading">OT</span>
                 </div>
                 <h4 className="text-xl font-bold font-heading">OrientalTea</h4>
               </div>

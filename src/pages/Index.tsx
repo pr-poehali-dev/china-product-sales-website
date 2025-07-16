@@ -66,7 +66,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-brand-red to-brand-orange rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 from-brand-red to-brand-orange rounded-lg flex items-center justify-center bg-transparent">
                 <span className="text-white font-bold font-heading">OT
 </span>
               </div>

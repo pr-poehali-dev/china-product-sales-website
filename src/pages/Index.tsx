@@ -276,7 +276,7 @@ const Index = () => {
                       <Icon name="Clock" size={20} className="mr-2 text-brand-red" />
                       Часы работы
                     </h4>
-                    <p className="text-brand-gray font-body">Ежедневно с 9:00 до 21:00</p>
+                    <p className="text-brand-gray font-body">Ежедневно с 10:00 до 22:00</p>
                   </CardContent>
                 </Card>
                 <Card className="border-brand-gray/20">

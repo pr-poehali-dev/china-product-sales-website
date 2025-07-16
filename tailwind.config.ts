@@ -61,12 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Chinese design system colors
+				'brand-red': '#FF6B6B',
+				'brand-orange': '#FFD93D',
+				'brand-gray': '#8F9FA5',
+				'brand-white': '#FFFFFF'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				'heading': ['Montserrat', 'sans-serif'],
+				'body': ['Open Sans', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {

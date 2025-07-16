@@ -313,7 +313,7 @@ const Index = () => {
                 <div className="w-8 h-8 bg-gradient-to-r from-brand-red to-brand-orange rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold font-heading">中</span>
                 </div>
-                <h4 className="text-xl font-bold font-heading">China Market</h4>
+                <h4 className="text-xl font-bold font-heading">OrientalTea</h4>
               </div>
               <p className="text-gray-400 font-body">Лучшие китайские продукты и напитки с доставкой по всей России</p>
             </div>

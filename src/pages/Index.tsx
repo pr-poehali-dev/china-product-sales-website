@@ -69,9 +69,8 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-brand-red to-brand-orange rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold font-heading">中</span>
               </div>
-              <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-brand-red to-brand-orange bg-clip-text text-transparent">
-                China Market
-              </h1>
+              <h1 className="text-2xl font-bold font-heading bg-gradient-to-r from-brand-red to-brand-orange bg-clip-text text-transparent">OrientalTea
+</h1>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#catalog" className="text-gray-700 hover:text-brand-red transition-colors font-body">Каталог</a>
